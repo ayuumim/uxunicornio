@@ -1,0 +1,253 @@
+/***************
+	Filename: custom.css;
+	Author: Amanda Ayumi;
+	Date: February 2, 22
+	
+	Index
+
+	0. Reset
+	1. General
+	2. Header
+	3. Cities
+	4. Table of contents
+	5. Stats
+	6. Footer
+
+***************/
+
+/***************
+	1.General
+***************/
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #60495F;
+}
+
+::selection {
+	background: #ffee58;
+	color: #ff00af;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 120%;
+	margin-top: 150px;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+	text-align: left;
+	color: #ff00af;
+	margin-bottom: 32px;
+}
+
+h5 {
+	font-size: 16px;
+	line-height: 150%;
+	font-weight: 400;
+	margin-bottom: 3px;
+}
+
+
+/***************
+	2. Header
+***************/
+
+header {
+
+}
+
+header nav {
+	color: #FFFFFF;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ac3ecf+0,ff00af+90 */
+	background: #ac3ecf; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #ac3ecf 0%, #ff00af 90%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #ac3ecf 0%,#ff00af 90%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #ac3ecf 0%,#ff00af 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac3ecf', endColorstr='#ff00af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-weblot-box-shadow: none;
+	box-shadow: none;
+}
+
+header#hero {
+	color: #FFFFFF;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ac3ecf+0,ff00af+90 */
+	background: #ac3ecf; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #ac3ecf 0%, #ff00af 90%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #ac3ecf 0%,#ff00af 90%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #ac3ecf 0%,#ff00af 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac3ecf', endColorstr='#ff00af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+}
+
+
+#hero-title h1 {
+	margin-bottom: -16px;
+}
+
+#hero-subtitle h5{
+	margin-bottom: 24px;
+}
+
+Header#background-map {
+	background-image: url(assets\img\._mapa.svg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 75% -100px;
+
+}
+
+#call-to-scroll {
+	color: #ff00af;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 24px;
+	margin-bottom: -8px;
+}
+
+#call-to-scroll .cta {
+	margin-top: 24px;
+	margin-bottom: -12px;
+}
+
+#call-to-scroll i {
+	font-size: 50px;
+}
+
+a.brand-logo {
+	font-size: 24px;
+	font-weight: 500px;
+}
+
+#value-proposition {
+	height: 600px;
+}
+
+#value-proposition a {
+	color: #B633BF;
+}
+
+#value-proposition .col {
+	padding: 0px;
+}
+
+
+/***************
+	3. Cities
+***************/
+
+#cities {
+
+}
+
+#cities-title {
+
+}
+
+.card-action a {
+	background: #FE03B0;
+	color: #FFF;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.card-action a:hover {
+	background: #9A259F;
+}
+
+/***************
+	4. Table of contents
+***************/
+
+#table-of-contents {
+	background: #FFF6FF;
+	padding: 24px 0px;
+}
+
+#table-of-contents-title {
+	margin-top: 24px;
+}
+
+#table-of-contents-title h4 {
+	margin-bottom: -8px;
+}
+
+#table-of-contents-subtitle	{
+
+}
+
+#table-of-contents-subtitle p {
+	margin-bottom: 32px;
+}
+
+#table-of-contents-content {
+	background: #FFF;
+}
+
+.table-of-contents-content-title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: left;
+	padding: 16px 16px 0px 16px;
+}
+
+.table-of-contents-content-title-items {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: left;
+	padding: 0px 16px;
+	margin-left: 32px;
+}
+
+.table-of-contents-content-title-items li {
+	padding: 8px;
+}
+
+/***************
+	5. Stats
+***************/
+
+#stats {
+
+}
+
+
+#stats-content {
+	padding: 60px 0px;
+	background: url(assets/img/stats.png);
+	background-repeat: no-repeat;
+	background-position: 50% 100px;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+.stats-content-title {
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 90px;
+	color: #FE03B0;
+	text-shadow: 0px 0px 20px #FFFFFF;
+	padding-top: 32px;
+}
+
+.stats-content-subtitle	{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #6049SF;
+	padding-bottom: 32px;
+}
+
+/***************
+	6. Footer
+***************/
+
+.page-footer {
+	background: #9c27b0;
+}
